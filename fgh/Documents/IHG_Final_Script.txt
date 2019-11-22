@@ -1,0 +1,84 @@
+IHG Alexa Usecase:
+==================
+
+1. Greeting User -- Welcoming user with Name and capabilities we offers like make reservation for stay, meeting etc(See Scenario-1)
+2. Property/Hotel Search -- Search hotel based on destination place, Check-in,Check-out date, no.of rooms, and no.of adults (See Scenario-2,3)
+3. Hotel Room Search -- Search room in hotel based on room type(one bed, two beds, Suite and standard)(See Scenario-2,3)
+4. Booking Hotel Room -- Show booking confirmation (See Scenario-2,3)
+5. Suggestion of hotel based on previous booking history (like must have fitness center) - to give personalize feel(See Scenario-2,3)
+6. Suggestion based on place for Shopping around Booked Hotel(See Scenario-3)
+
+Conversation Script:
+====================
+
+1. Scenario : Greeting first time user
+--------------------------------------
+
+Sam		: Alexa, open IHG / Alexa, launch IHG / Alexa, talk to IHG
+Alexa	: Hi Sam, Welcome to InterContinental Hotels Group! Experience a quality stays for every occasion. You can make Reservation for hotels, board rooms for meetings and party. What would you like to do?
+
+
+2. Scenario: Searching hotel for Stay
+-------------------------------------
+
+Sam		: Alexa, open IHG / Alexa, launch IHG
+Alexa	: Hi Sam, Welcome to InterContinental Hotels Group! Experience a quality stays for every occasion. You can make Reservation for hotels, board rooms for meetings and party. What would you like to do?
+
+Sam		: I would like to make a reservation for hotel
+Alexa	: Sure, Where can I make your reservation?
+
+Sam 	: At Boston
+Alexa	: Wow, that's an amazing place. When are you planning to check-in?
+
+Sam		: On 20th of September
+Alexa	: Alright! How long is your stay?
+
+Sam		: 2 nights
+Alexa	: I found 2 hotels based on your schedule. A top result that has been rated as overall excellent by more than 5000 travelles is the "InterContinental Boston hotel" as it has an indoor pool, which you always expect in your stay. A 5-star hotel with standard room at $ 445 per night. 
+Can i book this hotel or say next to hear about next hotel ?
+
+Sam		: Yeah, book this one. 
+Alexa	: My Pleasure! So, what room type you are expecting?
+
+Sam		: Standard room will do.
+Alexa	: Okay, Standard room comes with two beds and Wi-Fi facility. How many of these rooms you are looking for?
+
+Sam		: 1 room is great.
+Alexa	: Cool, so Sam shall I book one Standard room in InterContinental Boston from 20th September for 2 nights at $ 445 per night?
+
+Sam		: Yeah, done.
+Alexa	: Your booking has been successful. Enjoy the stay with us! 
+
+
+3. Scenario: Already know where you want to Stay and suggesting attractions in that place.
+------------------------------------------------------------------------------------------
+
+Sam		: Alexa open IHG and find how much is a room at Holiday Inn, Paris ?
+Alexa	: Hi Sam, Sure. Let me see based on your check-in. 
+
+Sam		: Yeah, I would like to check- in on 20th of September
+Alexa	: Alright! How long is your stay?
+
+Sam		: 2 nights
+Alexa	: Oh Great. So, what room type you are expecting?
+
+Sam		: Standard room will do.
+Alexa	: Okay, Standard room comes with two beds and Wi-Fi facility with price of $555. How many of these rooms you are looking for?
+
+Sam		: 1 room is great.
+Alexa	: Cool, so Sam shall I book one Standard room in Holiday Inn Paris from 20th September for 2 nights at $ 555 per night?
+
+Sam		: Yeah, done.
+Alexa	: Your booking has been successful. Would you like me to suggest some places for visit in Paris? 
+
+Sam		: Wow, okay! Let me hear some.
+Alexa	: Sure, here you go. One of the top attractions in Paris, the Eiffel Tower offers 360-degree views of Paris from its observation deck. There are three lifts that take you to the top, or you can climb the 704 steps.
+
+Sam		: I will definitely try it. Is there any great place for shopping, Alexa?
+Alexa 	: Of course. Perhaps the city's most famous department store, Galeries Lafayette, offers shoppers endless visual delights, including Belle Époque architecture and a 3,500-square-metre, two-floor food hall.
+
+Sam		: Thanks Alexa. 
+Alexa	: The pleasure is mine.
+
+
+
